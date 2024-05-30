@@ -1,0 +1,100 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styles */
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #001f3f; /* Set background color to navy blue */
+  }
+  
+  header {
+    background-color: #333; /* Set background color of header to dark gray */
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    text-align: center; /* Align the title to the center */
+    font-size: 48px; /* Increase font size */
+    margin-bottom: 30px; /* Increase space between title and taskbar */
+  }
+  
+  nav {
+    background-color: #333; /* Set background color of taskbar to dark gray */
+    text-align: center; /* Center the taskbar */
+    padding: 10px 0; /* Add padding to the top and bottom of the taskbar */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: inline-block; /* Make the list items display inline-block */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px; /* reduce the spacing between menu items */
+  }
+  
+  nav ul li a {
+    color: #fff; /* Change the color of menu item text to white */
+    text-decoration: none;
+    padding: 10px; /* add padding to create a small box around each menu item */
+    border: 1px solid #ff5733; /* add a border for visual separation */
+    border-radius: 5px; /* add border radius for rounded corners */
+    background-color: #333; /* Set background color of taskbar to dark gray */
+  }
+  
+  nav ul li a:hover {
+    background-color: #ff8c66; /* Change background color on hover */
+  }
+  
+  .hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff8c66;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px; /* Increase padding to create space at the bottom */
+  }
+  
